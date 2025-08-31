@@ -1,0 +1,51 @@
+body {
+   width: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: auto
+}
+.navbar{
+    background-color: crimson;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: auto;
+
+}
+.logo a {
+    color: #d9ff00;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    justify-content: center;
+    display: flex
+    
+    
+}
+
+.nav-links li {
+    margin-right: 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+} 
+
+#main{
+    padding: auto;
+    margin: auto;
+    background-color: crimson;
+    width: top;
+    height: auto;
+    display: inline-block;
+}
