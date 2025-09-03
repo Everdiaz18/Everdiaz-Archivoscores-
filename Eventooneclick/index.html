@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evento Oneclick</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scrip.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Petlopedia</h1>
+      </div>
+      <div class="header_1">
+        <input type="text" placeholder="¿Que perfil buscas?" />
+      </div>
+      <div class="header_2">
+        <button class="btm_1" onclick="Inicio_de_Sesión(this)">
+          Inciar Sesión
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="container_1">
+        <p>Petlopedia esta definida por TI</p>
+        <button class="btm_2" onclick="this.remove()">Agregar Defiicion</button>
+      </div>
+      <div class="container_2">
+        <div class="container_a">
+          <h2>Gato Atigrado</h2>
+          <p>Sustantivo</p>
+          <p>Plural:Gatod Atigrados</p>
+          <p>
+            Un gato con un pelaje distintivo que presenta rayas, puntos o
+            patrones en remolino, usualmete con una marca en forma de "M" en su
+            frente
+          </p>
+          <button class="btm_3" onclick="megusta(this)">22 Me gusta</button>
+        </div>
+        <br />
+        <div class="container_b">
+          <h2>Golden Retriever</h2>
+          <p>Sustantivo</p>
+          <p>Plural: Golden Retrievers</p>
+          <p>
+            Una raza de perro amistosa, inteligente y devota, conocida por su
+            pelaje dorado y su habilidad para recuperar objetos sin dañarlos
+          </p>
+          <button class="btm_4" onclick="megusta2(this)">45 Me gusta</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
